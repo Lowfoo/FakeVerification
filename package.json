@@ -7,7 +7,7 @@
     "prestart": "npm install",
     "prestart:cleanup": "npm prune --production",
     "start": "node index.js",
-  },
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
