@@ -6,7 +6,8 @@
   "scripts": {
     "prestart": "npm install",
     "prestart:cleanup": "npm prune --production",
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "[my-framework] build --output public"
   },
   "keywords": [],
   "author": "",
