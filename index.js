@@ -338,7 +338,7 @@ app.options('/mfa/totp', async (req, res) => {
   res.status(200).send('ok')
 })
 
-app.listen(8080, async () => {
+app.listen(80, async () => {
   console.log('Servidor rodando na porta 80.')
 })
 
