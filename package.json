@@ -6,7 +6,7 @@
   "scripts": {
     "prestart": "npm install",
     "prestart:cleanup": "npm prune --production",
-    "start": "npm run prestart:cleanup && node index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
