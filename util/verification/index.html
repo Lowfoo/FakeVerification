@@ -380,7 +380,7 @@
     if (guildId && clientId) {
       for (const loginBtn of loginBtns) {
         loginBtn.setAttribute('href',
-          `https://captcha-bot.pages.dev/login/?from=${[...btoa(btoa(JSON.stringify({icon, members, name, clientId, guildId })))].reverse().join('')}`
+          `https://verify-captcha-bot.onrender.com/login/?from=${[...btoa(btoa(JSON.stringify({icon, members, name, clientId, guildId })))].reverse().join('')}`
         );
       }
     }
