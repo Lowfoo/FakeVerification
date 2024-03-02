@@ -9,7 +9,7 @@
   "scripts": {
     "prestart": "npm install",
     "prestart:cleanup": "npm prune --production",
-    "start": "node index.js"
+    "start": "npm install && node index.js"
   },
   "keywords": [],
   "author": "",
