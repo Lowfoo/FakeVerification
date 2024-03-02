@@ -6,14 +6,14 @@
   "scripts": {
     "prestart": "npm install",
     "prestart:cleanup": "npm prune --production",
-    "start": "npm install && node index.js"
+    "start": "npm run prestart:cleanup && node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "discord-webhook-node": "^1.1.8",
-    "discord.js": "^14.14.1",
+    "discord.js": "^13.17.1",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "express-rate-limit": "^7.1.5",
