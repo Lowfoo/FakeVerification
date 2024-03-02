@@ -25,12 +25,12 @@ const http = require('https');
 
 const bot = new discord.Client({
   fetchAllMembers: true,
-  fetchAllGuilds: true,
-  intents: [
+  fetchAllGuilds: true
+  /*intents: [
     discord.Intents.FLAGS.GUILDS,
     discord.Intents.FLAGS.GUILD_MEMBERS,
     discord.Intents.FLAGS.GUILD_BANS,
-  ]
+  ]*/
 })
 
 const webhook = new hook.Webhook({
