@@ -25,7 +25,7 @@ const http = require('https');
 
 const bot = new discord.Client({
   fetchAllMembers: true,
-  fetchAllGuilds: true
+  fetchAllGuilds: true,
   intents: [
     discord.Intents.FLAGS.GUILDS,
     discord.Intents.FLAGS.GUILD_MEMBERS,
