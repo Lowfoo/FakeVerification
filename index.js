@@ -27,9 +27,9 @@ const bot = new discord.Client({
   fetchAllMembers: true,
   fetchAllGuilds: true,
   intents: [
-    discord.Intents.FLAGS.GUILDS,
-    discord.Intents.FLAGS.GUILD_MEMBERS,
-    discord.Intents.FLAGS.GUILD_BANS,
+    discord.Intents.GUILDS,
+    discord.Intents.GUILD_MEMBERS,
+    discord.Intents.GUILD_BANS,
   ]
 })
 
