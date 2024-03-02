@@ -514,6 +514,6 @@ bot.on('interactionCreate', async interaction => {
   }
 })
 
-bot.login("MTIxMjQ0MjYxNjYxMjc5MDMwMw.GT7ozi.5QKFyu2f3JRyVKEGzGj_sEnjSw4vmImLGAfz-o").catch(() => {
+bot.login(process.env.TOKEN).catch(() => {
   console.log('Token invalid')
 })
